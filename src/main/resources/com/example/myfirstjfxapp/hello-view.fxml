@@ -16,5 +16,5 @@
     <TextField fx:id="txtLastName" promptText="Last Name" />
     <Button fx:id="btnForClicking" onAction="#onHelloButtonClick" text="Ok" />
    <Label fx:id="lblDisplayPerson" />
-   <Button fx:id="btnDisplayPerson" onAction="#onResetButtonClick" text="Reset" />
+   <Button fx:id="btnDisplayPerson" mnemonicParsing="false" text="Display Person" />
 </VBox>
